@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5 rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.firstSection {
+  background-image: url("https://ir.ebaystatic.com/pictures/aw/pics/uk/campaigns/EUO-46722/Module_1_image.jpg");
   color: white;
+  background-position: center;
+  background-size: cover;
+  padding: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.offSet {
+  padding: 50px 3%;
+}
+.centering {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.donate {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px black;
+  color: red;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.iconCart {
+  background: url("https://ir.ebaystatic.com/pictures/aw/pics/uk/campaigns/EUO-46722/Cart.svg");
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  margin-right: 15px;
+  min-width: 33px;
+  margin-top: 8px !important;
+}
+.iconTag {
+  background: url("https://ir.ebaystatic.com/pictures/aw/pics/uk/campaigns/EUO-46722/Selling.svg");
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  margin-right: 15px;
+  min-width: 33px;
+  margin-top: 8px !important;
+}
+
+.icons {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .resizeAtWidth {
+    margin-left: 0% !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .moveCross {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
+
+  .cross {
+    min-width: 530px;
+  }
+}
+
+.thirdSection {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+}
+.crossLeftSide {
+}
+
+.crossRightSide {
+  height: auto;
+  max-width: 100%;
+}
+
+.fourthSection {
+}
+
+.articleA {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.fifthSection {
+  background-image: url("https://ir.ebaystatic.com/pictures/aw/pics/uk/campaigns/EUO-46722/Module_5_image_-_with_logo.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  height: auto;
+}
+
+.FAQ {
+  margin-right: 25px;
+}
+
+.FAQsArticals {
+  margin-left: 1%;
 }
